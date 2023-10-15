@@ -4,6 +4,7 @@ date: 2023-10-14
 ---
 
 
+
 ## Table of Contents
 - [Whom This Guide is for](#whom-this-guide-is-for)
 - [What Courses to Take at School](#what-courses-to-take-at-school)
@@ -476,6 +477,7 @@ CPSC 426 Computer Animation
            * 2 - 5 YOE is Intermediate
            * 5 - 8 YOE is Senior
            * 8+ YOE is staff+
+
 ## How to Negotiate Better
 **(Read these “before” starting applying to companies. Interns can ignore this, for now)**
    * **[Ten Rules for Negotiating a Job Offer (part 1)](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)**
@@ -496,6 +498,7 @@ CPSC 426 Computer Animation
        * The recruiter you are talking to is probably trying to close the deal as soon as possible by trying their best to give you what you want within reasonable limits. The real people that decide the offer numbers are probably the hiring committee. So do not feel bad trying to negotiate with the recruiter. The recruiter does not care too much about whether you are getting more money or not. The money is not coming out of their pocket.
        * Mention that you’d need some time to think it over, discuss with your family or significant other, and etc. This will buy you some time easily if you need some time.
        * Bottom Line: **NEVER EVER LET GO OF YOUR NEGOTIATING POWER UNTIL YOU SIGN while staying honest to build a positive relationship.**
+
 ## Leveling Guide
    Higher level means higher TC!
    * [Dropbox's Leveling Framework](https://dropbox.github.io/dbx-career-framework/) 
@@ -536,10 +539,12 @@ CPSC 426 Computer Animation
        * TBD
    * Level 5+
        * I don’t know. How do you get there?
+
 ## Case Study
    * [An inspiring story of the author who wrote "Ten Rules for Negotiating a Job Offer" on how he cracked the top tier tech interviews without a CS degree](https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/) 
    * [Story of an engineer getting 10 offers in 100 days](https://dev.to/stopachka/10-offers-100-days-lessons-behind-the-scenes-of-an-l6-jobsearch-535j) 
    * [How to use your personal projects to get job offers](https://www.reddit.com/r/cscareerquestions/comments/vxd8zs/i_posted_my_project_on_reddit_and_received_9_job/) 
+
 ## Additional Materials
    * [Job Search Guideline for Senior Levels](https://www.jobsearch.dev/)
    * [Someone copied the Grokking courses from educative](https://akshay-iyangar.github.io/system-design/)
