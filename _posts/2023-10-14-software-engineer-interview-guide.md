@@ -3,11 +3,12 @@ title: "General Software Engineer Interview Guide (How to get into FAANGs)"
 date: 2023-10-14
 ---
 
-This guide is slightly geared towards students preparing for the general web backend software engineering (SWE) interviews and career prep. However, a lot of the contents in this guide will overlap with other types of SWE. General web backend SWE is the best starting point if/when you are not sure which specific path to choose. Do as many internships at different companies as possible to find out what you like.
+
+This guide is slightly geared towards students preparing for the general web backend software engineering (SWE) interviews and career prep. However, a lot of the contents in this guide will overlap with other types of SWE and covers up to senior engineer interviews. General web backend SWE is the best starting point if/when you are not sure which specific path to choose. Do as many internships at different companies as possible to find out which career path you want to pursue for.
 
 
 
-* Courses to Take (UBC) (For non-UBC students, feel free to skip this section)
+* Courses to Take (UBC) (For non-UBC students, refer to your school's courses that teach similar topics and/or skip this particular section)
     * For Interview Prep
         * (Must) CPSC 221 Data Structures and Algorithms (DSA)
         * (Partially must) CPSC 213 Intro to Computer Systems
@@ -49,7 +50,7 @@ CPSC 426 Computer Animation
         * Until you have at least one internship at a reputable company, have as many hackathons and game jams (up to 5) on your 1-page resume.
     * Side projects
         * Open Source
-            * The more popular the Open Source Project is, the better.
+            * The more popular the open source project is, the better.
         * Personal
             * Great if it has real users
         * School
@@ -61,7 +62,7 @@ CPSC 426 Computer Animation
         * Can slightly boost your resume and give you money.
     * As the resume fills up, get rid of the lowest priority ones from the hackathon and side project sections to keep things in 1 page. You need to evaluate each hackathon and side project case by case to figure out which is of lower value.
     * Experience/companies to go for
-        * Aim for getting internships or new grad positions at **named** “**tech”** companies. This is especially important when you don’t have experience as that will give you a much higher chance to get interviews at your dream companies when you try to move later.
+        * Aim for getting internships or new grad positions at **named** “**tech”** companies. This is especially important when you don’t have experience as having experiences at named tech companies on resume will give you a much higher chance to get interviews at your dream companies when you try to move later.
             * Trading/hedge fund companies are exceptions. If you go for companies like Jane Street, Two Sigma, and etc, that’s great even if they are not “tech” companies.
         * If your first new grad position out of university is at a no-name non-funded tiny local startup, you will have an extremely hard time moving up to your dream company later on as recruiters from those dream companies won’t consider your resume. So make sure your first job out of school counts.
             * It does not have to be FAANG or other top tier tech companies in the Bay Area. It just needs to be a “tech” company with a strong engineering culture and is either public, funded, or named (out of the three, as you can probably expect, ‘named’ is the most important one for resume boosting).
@@ -69,14 +70,14 @@ CPSC 426 Computer Animation
         * Do not go for non software engineer positions, such as a QA/tester, if your goal is to become a software engineer. Your internship experience as a QA engineer will not give you the necessary experience needed as a software engineer. Also, your resume becomes less appealing than your peers who went for software engineer positions.
 * Interview Prep
     * Data Structure and Algorithms (CPSC 221 at UBC or equivalent)
-        * Important Data Structures (ones in **bold **are “exceptionally” important)
+        * Important Data Structures (ones in **bold** are “exceptionally” important)
             * Basic
                 * **String**
                 * **Array**
                     * 1d, 2d (matrix)
                 * Linked List
                 * **Set**
-                * **HashMap **(Dictionary)
+                * **HashMap** (Dictionary)
                 * **Stack**
                 * **Queue**
                 * **Tree**
@@ -99,7 +100,7 @@ CPSC 426 Computer Animation
                 * Putting an element in a heap
                 * Finding an element in a linked list.
                 * Etc 
-                * Make sure you **UNDERSTAND **why it takes that much time/space rather than memorizing them. This is the whole point of learning data structures.
+                * Make sure you **UNDERSTAND** why it takes that much time/space rather than memorizing them. This is the whole point of learning data structures.
         * Important Algorithms
             * Basic
                 * Greedy
@@ -114,7 +115,7 @@ CPSC 426 Computer Animation
                     * **TopologicalSort**
                 * Searching
                     * Binary Search
-                * **Traversals **(Tree, Graph)
+                * **Traversals** (Tree, Graph)
                     * BFS, DFS
                     * In order, pre order, post order
             * Intermediate
@@ -145,48 +146,48 @@ CPSC 426 Computer Animation
                 * Locks, Semaphores, Mutex, etc
             * Locality of reference, spatial locality
     * [Programming Interviews Exposed](https://www.google.com/search?q=Programming+Interviews+Exposed+.pdf&oq=Programming+Interviews+Exposed+.pdf&aqs=chrome.0.69i59j0i22i30l6j69i60.1026j0j7&sourceid=chrome&ie=UTF-8) (PIE)
-        * Depending on your commitment and timeline, you may want to start this part of the step and onwards before taking/finishing the CPSC 221 course above. It’s always better to start early as long as you can commit and study on your own. (you are basically learning the materials in CPSC 221 by yourself instead of being taught by the instructor.) If you wait until you finish CPSC 221 to start this step, you may not have enough time to get prepared for the interviews in time (especially if you are in a 2 year bachelor program like BCS at UBC). At the very least do in parallel (ie. you learnt strings/arrays in CPSC 221? Finish the homework during the weekdays and go do those topics in this book during the weekends).
+        * If you are a student, depending on your commitment and timeline, you may want to start this part of the step and onwards before taking/finishing the DSA course above. It’s always better to start early as long as you can commit and study on your own. (you are basically learning the materials in the DSA course by yourself instead of being taught by the instructor.) If you wait until you finish the DSA course to start this step, you may not have enough time to get prepared for the interviews in time (especially if you are in a 2 year bachelor program like BCS at UBC). At the very least do in parallel (ie. you learnt strings/arrays in the DSA course? Finish the homework during the weekdays and go do those topics in this book during the weekends).
         * You can find the pdf easily on google
         * Chapters to read (Based on 3rd edition)
             * Introductory stuff (ie. chapter 1~3)
             * Thoroughly read chapters for the topics mentioned above. These directly help with the actual coding interviews
-                * 4. Linked Lists
-                * 5. Tree and Graph
-                * 6. Array and String
-                * 7. Recursion
-                * 8. Sorting
-                * 9. Concurrency
-                * 13. ~~Graphic~~ and Bit Manipulation
+                * Ch 4. Linked Lists
+                * Ch 5. Tree and Graph
+                * Ch 6. Array and String
+                * Ch 7. Recursion
+                * Ch 8. Sorting
+                * Ch 9. Concurrency
+                * Ch 13. ~~Graphic~~ and Bit Manipulation
                     * Graphic part is not necessary
             * These will help with verbal questions asked during interviews
-                * 10. Object Oriented Programming
-                * 16. Knowledge based questions
-                * 17. Non Technical Questions
+                * Ch 10. Object Oriented Programming
+                * Ch 16. Knowledge based questions
+                * Ch 17. Non Technical Questions
             * Appendix. Resumes
-            * **(Come back after doing Leetcode) **11. Design Patterns
+            * **(Come back after doing Leetcode)** 11. Design Patterns
     * [Cracking the Coding Interviews](https://www.google.com/search?q=cracking+the+coding+interview+pdf&oq=cracking+the+cod&aqs=chrome.0.35i39j69i57j35i39j46i67j0i67l2j0i20i263i512j0i67l3.1957j0j7&sourceid=chrome&ie=UTF-8) (CTCI)
         * You can find the pdf easily on google
         * Chapters to read (Based on 4th Edition)
             * Read all the introductory stuff before the section “Interview Questions”
             * **Solve every single questions** in these chapters
-                * 1. Array and Strings
-                * 2. Linked Lists
-                * 3. Stacks and Queues
-                * 4. Trees and Graphs
-                * 5. Bit Manipulation
-                * 8. Recursion
-                * 9. Sorting and Searching
+                * Ch 1. Array and Strings
+                * Ch 2. Linked Lists
+                * Ch 3. Stacks and Queues
+                * Ch 4. Trees and Graphs
+                * Ch 5. Bit Manipulation
+                * Ch 8. Recursion
+                * Ch 9. Sorting and Searching
             * Also do the chapters on “C++” (Ch. 13)  and/or “Java” (Ch. 14) (depending on the language you used)
-            * Read and understand Chapter 18. Threads and Locks but solving the problems is optional.
-            * **(Come back after doing Leetcode) **7. Object Oriented Design
-            * **(Ignore for internships. Comeback to this when prepping for New Grad/Entry level positions) **12. System Design
+            * Read and understand Ch 18. Threads and Locks but solving the problems is optional.
+            * **(Come back after doing Leetcode)** Ch 7. Object Oriented Design
+            * **(Ignore for internships. Comeback to this when prepping for New Grad/Entry level positions)** Ch 12. System Design
     * [LeetCode](https://leetcode.com/)
         * [Grind 75](https://www.techinterviewhandbook.org/grind75?grouping=weeks&hours=16&weeks=10) (Newer version of [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions))
             * Recommended workload: 2 hours a weekday, 3 hours a weekend day => 16 hours a week. This will yield a total of 10 weeks to finish the 169 questions in Grind 75.
             * **Remember, you are probably taking courses at this point. Use your time wisely.**
             * Choose the language you are the most comfortable with.
                 * If you don’t have a preference, yet, Python is suggested as it will make interview-question-type of questions easier to code with.
-            * **After you’ve done all the Easy questions, you are now prepared to “start” applying for internships. **
+            * **After you’ve done all the Easy questions, you are now prepared to “start” applying for internships.**
                 * Refer to the “Applying to companies” section for details.
             * The more Medium questions you solve, the higher the chance of doing well on your interviews.
             * After finishing the 169 questions in Grind 75, you are probably good enough to do well on ‘many’ leetcode style interviews and the author of Grind 75 mentions that the returns of solving more problems diminish after 169 questions. I do agree with the diminishing returns in terms of value / effort perspective. However, even though the return does get diminished, a return is a return. The more returns you have, the higher chance of you doing the interviews well. So I suggest you to, at least, do more leetcode until you finish the “Company tagged questions” section below. This way, you can increase the chance of seeing the problem you know during the real interviews. (This should not be the purpose of solving leetcode problems. The purpose should be to learn/practice and get better at solving problems. However, it’s a side effect which will greatly increase your chance of passing the interview.)
@@ -199,7 +200,7 @@ CPSC 426 Computer Animation
             * These are the questions that were actually asked by these companies in real interviews. Questions in real interviews are, many times, repeated especially for the 1st phone interviews.
             * Either pay for Leetcode subscriptions
             * Or use some other sources like [this](https://github.com/xizhengszhang/Leetcode_company_frequency)
-            * Do as many from FAANGs and from the specific companies you are applying for. A lot of the questions used by FAANGs are of high quality _(I’m basing off of the link I linked above and not from the actual leetcode’s company tagged questions as I have not paid for the leetcode subscription)_. You’ve probably already solved many of the ones while doing the Grind 75 since many questions overlap.Do the ones that weren’t covered by Grind 75.
+            * Do as many from FAANGs and from the specific companies you are applying for. A lot of the questions used by FAANGs are of high quality _(I’m basing off of the link I linked above and not from the actual leetcode’s company tagged questions as I have not paid for the leetcode subscription)_. You’ve probably already solved many of the ones while doing the Grind 75 since many questions overlap. Do the ones that weren’t covered by Grind 75.
         * Now, do 1 leetcode problem a day.
             * Choose any good question you want
                 * Focus on the topics you are weak on.
@@ -264,7 +265,7 @@ CPSC 426 Computer Animation
             * Do in parallel while studying the Grokking the System Design Interview. Just watch one video each time you eat lunch/dinner.
             * Watch the fundamentals/concept videos first and then the “design something” videos.
         * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-            * Pay for 1 month (69 cad) and finish this course within 1 month.
+            * Pay for 1 month ($69 CAD) and finish this course within 1 month.
                 * _There is a link to the free version of this course at the bottom. Someone seems to have copied the entire course. I found out after I finished the course. hmm._
             * Read “Glossary of System Design Basics”
                 * **You are going to pretty much ace almost all New Grad/Entry level position interviews.**
@@ -349,7 +350,7 @@ CPSC 426 Computer Animation
     * DSA / Coding / Pair Programming*
         * This interview is the base of most of the interviews. There are some companies trying to avoid leetcode style questions but the majority is still using this type of interview at this moment.
         * You are given a question that is either directly from Leetcode, variation of it using different words, or some question that follows the same/similar pattern as questions on Leetcode.
-        * Some companies “say” their interviews are not Leetcode style and call it Pair Programming but I was given a Leetcode style question during their Pair Programming interview (Cash App). So be prepared for a possible DSA interview when a company says Pair Programming interview.
+        * Some companies “say” their interviews are not Leetcode style and call it Pair Programming but I was given a Leetcode style question during their Pair Programming interview (Cash App). So still be prepared for a possible DSA interview when a company says Pair Programming interview.
     * Problem Solving Exercise / General Programming / Live Coding / Pair Programming*
         * This interview is a coding interview where you are given a question that is more like a real life problem than the Leetcode style questions.
         * Some companies do this interview by having the candidate implement the solution on their own without them being present. (They explain the problem, goes away, and come back when the time is up)
@@ -459,8 +460,8 @@ CPSC 426 Computer Animation
             * 5 - 8 YOE is Senior
             * 8+ YOE is staff+
 * Negotiations **(Read these “before” starting applying to companies. Interns can ignore this, for now)**
-    * **[Ten Rules for Negotiating a Job Offer (part 1)](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/) **
-    * **[How Not to Bomb Your Offer Negotiation (part 2)](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/) **
+    * **[Ten Rules for Negotiating a Job Offer (part 1)](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)**
+    * **[How Not to Bomb Your Offer Negotiation (part 2)](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)**
     * [Salary Negotiation: Make More Money, Be More Valued](https://www.kalzumeus.com/2012/01/23/salary-negotiation/) 
     * Self note from these links:
         * Show excitement about the offer/role/company so they know you are interested in working at the company and worth their time negotiating to hire you.
@@ -525,3 +526,4 @@ CPSC 426 Computer Animation
     * [Someone copied the Grokking courses from educative](https://akshay-iyangar.github.io/system-design/)
     * [Big O CheatSheet](https://www.bigocheatsheet.com/)
     * [Cooldown periods for applications](https://leetcode.com/discuss/career/771157/cool-down-period-for-all-faangs-number-of-tries-and-different-job-posts) 
+
