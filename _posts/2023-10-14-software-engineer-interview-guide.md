@@ -99,7 +99,7 @@ CPSC 426 Computer Animation
 	           * It does not have to be FAANG or other top-tier tech companies in the Bay Area. It just needs to be a “tech” company with a strong engineering culture and is either public, funded, or named (out of the three, as you can probably expect, ‘named’ is the most important one for resume-boosting).
 	           * Your first job and position will affect your next career opportunities tremendously. So make sure you get enough internship experience at good enough companies to help you get interviews for your new grad position at great companies.
 	       * Do not go for non-software engineer positions, such as a QA/tester, if your goal is to become a software engineer. Your internship experience as a QA engineer will not give you the necessary experience needed as a software engineer. Also, your resume becomes less appealing than your peers who went for software engineer positions.
-    * For people with experience:
+   * For people with experience:
 	    * Try to focus on mentioning your achievements/impacts with measurable results.
 		    * When working, try to track all of your work and record any notable stuff in an ongoing basis. That way, by the time you are to move to another company, you have a readily available list of achievements to write down on your resume.
 		    * Examples:
