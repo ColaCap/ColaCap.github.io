@@ -23,6 +23,14 @@ date: 2023-10-14
 	- [System Design](#system-design)
 	- [Real Life Examples/Concepts/Products to Familiarize Yourself](#real-life-examples)
 - [Types of Interviews](#types-of-interviews)
+	- [Data Structures and Algorithms / Coding / Pair Programming](#interview-type-dsa)
+	- [Problem Solving Exercise / General Programming / Live Coding / Pair Programming](#interview-type-general-programming)
+	- [Object Oriented Design (OOD)](#interview-type-ood)
+	- [System Design](#interview-type-system-design)
+	- [Behavioral / Culture fit](#interview-type-behavioral)
+	- [Technical Deep Dive / Resume deep dive](#interview-type-technical-deep-dive)
+	- [Code Review](#interview-type-code-review)
+	- [In general](#interview-type-in-general)
 - [Applying to Companies](#applying-to-companies)
 - [How to Negotiate Better](#how-to-negotiate-better)
 - [Leveling Guide](#leveling-guide)
@@ -396,11 +404,11 @@ CPSC 426 Computer Animation
        * Many people post the actual interview questions they were asked on LeetCode and Glassdoor. The chance of the same question being asked is actually surprisingly high. There were so many times when I searched the specific companies I was interviewing for on LeetCode and Glassdoor before the interview and had exactly the same question on my actual interviews. So make use of these available tools. This applies to both coding and system design interviews.
 
 ## Types of Interviews
-   * DSA / Coding / Pair Programming*
+   * <a id="interview-type-dsa"></a>DSA / Coding / Pair Programming*
        * This interview is the base of most of the interviews. There are some companies trying to avoid leetcode style questions but the majority is still using this type of interview at this moment.
        * You are given a question that is either directly from Leetcode, a variation of it using different words, or some question that follows the same/similar pattern as questions on Leetcode.
        * Some companies “say” their interviews are not Leetcode style and call it Pair Programming but I was given a Leetcode style question during their Pair Programming interview (ie. Cash App). So still be prepared for a possible DSA interview when a company says Pair Programming interview.
-   * Problem Solving Exercise / General Programming / Live Coding / Pair Programming*
+   * <a id="interview-type-general-programming"></a>Problem Solving Exercise / General Programming / Live Coding / Pair Programming*
        * This interview is a coding interview where you are given a question that is more like a real life problem than the Leetcode style questions.
        * "A few" companies do this interview by having the candidate implement the solution on their own without them (the interviewers) being present. (They explain the problem, go away, and come back when the time is up.)
        * You can use whatever resource you need.
@@ -413,7 +421,7 @@ CPSC 426 Computer Animation
        * Examples:
            * Build a program that can download (save to disk) all the images from a given URL.
            * Build a Web Crawler that crawls a given URL and crawls all the URLs in that URL.
-   * OOD (This interview may still be called a ‘coding’ interview probably. So you still need to be prepared for possible OOD questions when doing coding interviews)
+   * <a id="interview-type-ood"></a>Object Oriented Design (This interview may still be called a ‘coding’ interview probably. So you still need to be prepared for possible OOD questions when doing coding interviews)
        * This interview is about designing the low level design (object oriented design) of a system.
        * You would be gathering requirements, coming up with class designs, db schemas, and implementing the solution.
        * Out of so many interviews I did for internships, new grads, and senior positions, I think I only had one OOD question.
@@ -425,7 +433,7 @@ CPSC 426 Computer Animation
            * Virtual vs abstract method
            * Pass by reference vs pass by value
            * etc
-   * System Design
+   * <a id="interview-type-system-design"></a>System Design
        * This interview is about designing the high level design of a system.
        * You’d need to come up with the functional requirements, non-functional requirements, db schemas, capacity plannings, APIs, and the actual diagram of the design.
        * You’d need to explain all the tradeoffs you make, how different components will communicate with each other, what needs to be monitored/measured, etc.
@@ -434,13 +442,13 @@ CPSC 426 Computer Animation
            * Doing well in coding interviews will not make you a senior if you don’t do these interviews well.
        * Some companies give you system design interviews from intermediate levels. Some do from senior levels. Few do not have system design interviews at all even for senior positions.
        * New grad level interviews can still have system design ‘concept’ questions. They don’t ask you to design the whole system but can ask you to design a small portion of the system or ask what something is (what is consistent hashing?, how does it work?, implement it, etc)
-   * Behavioral / Culture fit
+   * <a id="interview-type-behavioral"></a>Behavioral / Culture fit
        * This interview is about explaining how you worked/behaved and how you would work/behave.
        * Many behavioral interviewers also ask questions that are more of technical deep dive questions on top of behavioral questions during behavioral interviews. So prepare both types.
        * [Example questions](https://www.levels.fyi/blog/amazon-leadership-principles.html)
            * These are example behavioral questions for Amazon’s leadership principle. Many companies ask the same or similar questions.
        * Usually one of the level determinant interviews. ([as mentioned in the System Design section](#level-determinant-interviews))
-   * Technical Deep Dive / Resume deep dive
+   * <a id="interview-type-technical-deep-dive"></a>Technical Deep Dive / Resume deep dive
        * This interview is about describing one or two pretty recent complex/big/interesting projects you worked on. For experienced positions, be sure to pick a project that you led.
        * Sometimes they want you to draw diagrams and give specific details about the classes and etc
        * Other times they want you to verbally describe the high level and focus more on what you did and talk about some behavioral stuff related to the project.
@@ -450,7 +458,7 @@ CPSC 426 Computer Animation
            * What was the biggest challenge?
            * Was it successful and how did you measure the success?
            * etc
-   * Code Review
+   * <a id="interview-type-code-review"></a>Code Review
        * This interview is about measuring your ability as the code reviewer.
            * Whether you can find bugs by tracing the code
            * How you give feedback
@@ -463,7 +471,7 @@ CPSC 426 Computer Animation
            * How do you give feedback?
            * Do you treat juniors and seniors differently?
            * The purpose of Code Review interviews seems to gauge whether the candidate has the ability to trace the code to find bugs and also be able to give constructive and critical feedback.
-   * In general:
+   * <a id="interview-type-in-general"></a>In general:
        * Interns:
            * mostly get DSA (Data Structures and Algorithms) questions (LeetCode style), potentially a few LLD/OOD design questions, and maybe some knowledge-based questions on language and/or CPSC fundamentals.
            * There are usually 2-4 technical interviews where each will be about 30~60 min each. (ie. Amazon gave me two 30min phone interviews for internship but Microsoft did one full onsite interview where there were four 60 min interviews)
