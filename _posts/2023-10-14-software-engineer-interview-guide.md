@@ -118,6 +118,7 @@ CPSC 426 Computer Animation
 			    * mentoring juniors
 			    * leading a project
 			    * leading group discussions
+  * [The Well Known Resume Template as well as tips](https://www.careercup.com/resume)
 
 ## Interview Prep
 ### Concepts You Need to Know for Interviews
