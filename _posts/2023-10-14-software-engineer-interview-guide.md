@@ -478,7 +478,7 @@ CPSC 426 Computer Animation
            * There are usually 2-4 technical interviews where each will be about 30~60 min each. (ie. Amazon gave me two 30min phone interviews for internship but Microsoft did one full onsite interview where there were four 60 min interviews)
        * NewGrad/Entry level positions
            * start getting more LLD/OOD design questions than Interns. Also, you may be asked about the concepts/fundamentals of system design (ie. consistent hashing, caching, load balancers, etc) but not the actual HLD questions like Design Facebook. You “may” get a question like that but focused on a very small subset of the system.
-           * Usually, one 45~60 min tech phone interview and on-site that has 4~6 60 min interviews
+           * Usually, one 45-60 min tech phone interview and on-site that has 4-6 60 min interviews
        * Experienced positions (intermediate & senior. Don’t know about staff+)
            * will now start getting real system design questions. Also, behavior interviews and technical deep dive interviews (where the interviewer will deep dive on 1-3 projects you did) will also be there.
            * Similar format as the new grad but different types of interviews.
