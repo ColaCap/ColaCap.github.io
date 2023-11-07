@@ -371,36 +371,36 @@ CPSC 426 Computer Animation
            * [System design Udemy Course by a Facebook TechLead](https://www.udemy.com/course/system-design-a-comprehensive-guide/) 
   * <a id="real-life-examples"></a>Real life examples/concepts/products to familiarize yourself
     * Coding
-    * Web Crawler
-    * Quad Tree
-    * Parsing strings like YAML, XML, JSON, CSV, Lisp and etc.
-    * Deduping/finding duplicates
+      * Web Crawler
+      * Quad Tree
+      * Parsing strings like YAML, XML, JSON, CSV, Lisp and etc.
+      * Deduping/finding duplicates
       * Hashing/Checksum
-  * System Design
-    * Cloud stuff (AWS, Azure, GCP, etc)
-      * S3
-      * Cloudflare
-      * HDFS
-      * etc
-    * Message Queues
-      * Kafka
-      * Active Mq
-      * etc
-    * DBs
-      * MySql
-      * Cassandra
-      * MongoDB
-      * etc
-    * Cache
-      * Redis
-      * Memcached
-    * Logging/Searching
-      * Kibana
-      * ElasticSearch
-    * VM/Container
-      * Docker
-      * Kubernetes
-    * ZooKeeper
+    * System Design
+      * Cloud stuff (AWS, Azure, GCP, etc)
+        * S3
+        * Cloudflare
+        * HDFS
+        * etc
+      * Message Queues
+        * Kafka
+        * Active Mq
+        * etc
+      * DBs
+        * MySql
+        * Cassandra
+        * MongoDB
+        * etc
+      * Cache
+        * Redis
+        * Memcached
+      * Logging/Searching
+        * Kibana
+        * ElasticSearch
+      * VM/Container
+        * Docker
+        * Kubernetes
+      * ZooKeeper
    * **[Leetcode Discuss](https://leetcode.com/discuss/interview-question) / Glassdoor**
        * Many people post the actual interview questions they were asked on LeetCode and Glassdoor. The chance of the same question being asked is actually surprisingly high. There were so many times when I searched the specific companies I was interviewing for on LeetCode and Glassdoor before the interview and had exactly the same question on my actual interviews. So make use of these available tools. This applies to both coding and system design interviews.
 
