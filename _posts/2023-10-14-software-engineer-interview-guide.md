@@ -358,9 +358,11 @@ CPSC 426 Computer Animation
                * [Instagram](https://instagram-engineering.com/)
                * [Uber](https://eng.uber.com/)
            * **Now you should be able to do pretty well on many experienced level tech interviews**
-       * Additional Materials (I personally watched the first bullet point but did not watch/read the other 3 bullet points, yet)
+       * Additional Materials (I personally watched the top two bullet points but did not watch/read the other 3 bullet points, yet)
            * [System Design Interview YouTube](https://www.youtube.com/c/SystemDesignInterview)
                * This is also one of the most praised channels for having in-depth videos of system designs. However, there are only 6 videos. It might be a bit hard to understand if you are a non-native speaker like me.
+           * [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
+               * The professor in this video really explains well. It covers concepts like scaling, single point of failure, DNS, load balancing, sessions, RAID, cache, DB replication/partitioning, security, and etc. I highly recommended it.
            * InfoQ videos
                * I heard these videos are really helpful. Some examples are:
                * [https://www.infoq.com/presentations/Pinterest/](https://www.infoq.com/presentations/Pinterest/)
