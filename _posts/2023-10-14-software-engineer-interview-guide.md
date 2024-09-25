@@ -1,6 +1,7 @@
 ---
 title: "General Software Engineer Interview Guide (How to get into FAANGs)"
-date: 2023-10-14
+created date: 2023-10-14
+last updated: 2024-09-24
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fsoftware-engineer-interview-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -9,6 +10,7 @@ date: 2023-10-14
 
 ## Table of Contents
 - [Whom This Guide is for](#whom-this-guide-is-for)
+- [Why is this free?](#why-is-this-free)
 - [What Courses to Take at School](#what-courses-to-take-at-school)
 - [Resume](#resume)
 - [Interview Prep](#interview-prep)
@@ -42,6 +44,9 @@ date: 2023-10-14
 This guide is slightly geared towards students preparing for the general web backend software engineering (SWE) interviews and career prep. However, a lot of the contents in this guide will overlap with other types of SWE and cover up to senior engineer interviews. So anyone from students to senior engineers can use this guide as one of the sure-fire paths you can take to go from 0 to your dream company.
 
 *If you are a student who is not yet certain which path (frontend? backend? game? embedded? infra? etc?) you are going to pursue, still get prepared as outlined in this guide. General web backend SWE is the best starting point, in terms of job/company/position/opportunities and TC (Total Compensation, a.k.a. money). Then, do as many internships at different companies as possible to find out which career path you want to pursue after graduation.*
+
+## Why is this free?
+I'm building something, that is not free, on top of this material. By sharing this knowledge and know-how with you, I gain your trust. Who'd buy from a strager online if you don't have trust in me? So this material is shared for free not because it is inferior but to gain your trust that what I build in the future is something of high value to be paid for. So now go and read this superior guide and get that job at your dream company.
 
 ## What Courses to Take at School
 *For non-students, skip to the next section.
@@ -118,7 +123,7 @@ CPSC 426 Computer Animation
 			    * mentoring juniors
 			    * leading a project
 			    * leading group discussions
-  * [The Well Known Resume Template as well as tips](https://www.careercup.com/resume)
+  * <s>[The Well Known Resume Template as well as tips](https://www.careercup.com/resume)</s> Careercup website is gone, unfortunately.
 
 ## Interview Prep
 ### Concepts You Need to Know for Interviews
