@@ -10,7 +10,7 @@ modified_date: 2024-09-24
 
 ## Table of Contents
 - [Whom This Guide is for](#whom-this-guide-is-for)
-- [Why is this free?](#why-is-this-free)
+- [Why is This Free?](#why-is-this-free)
 - [What Courses to Take at School](#what-courses-to-take-at-school)
 - [Resume](#resume)
 - [Interview Prep](#interview-prep)
@@ -45,7 +45,7 @@ This guide is slightly geared towards students preparing for the general web bac
 
 *If you are a student who is not yet certain which path (frontend? backend? game? embedded? infra? etc?) you are going to pursue, still get prepared as outlined in this guide. General web backend SWE is the best starting point, in terms of job/company/position/opportunities and TC (Total Compensation, a.k.a. money). Then, do as many internships at different companies as possible to find out which career path you want to pursue after graduation.*
 
-## Why is this free?
+## Why Is This Free?
 I'm building something, that is not free, on top of this material. By sharing this knowledge and know-how with you, I gain your trust. Who'd buy from a strager online if you don't have trust in me? So this material is shared for free not because it is inferior but to gain your trust that what I build in the future is something of high value to be paid for. So now go and read this superior guide and get that job at your dream company.
 
 ## What Courses to Take at School
