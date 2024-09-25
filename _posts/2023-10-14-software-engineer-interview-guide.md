@@ -1,7 +1,7 @@
 ---
 title: "General Software Engineer Interview Guide (How to get into FAANGs)"
-created date: 2023-10-14
-last updated: 2024-09-24
+date: 2023-10-14
+last_updated: 2024-09-24
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fsoftware-engineer-interview-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -123,7 +123,7 @@ CPSC 426 Computer Animation
 			    * mentoring juniors
 			    * leading a project
 			    * leading group discussions
-  * <s>[The Well Known Resume Template as well as tips](https://www.careercup.com/resume)</s> Careercup website is gone, unfortunately.
+  * [<s>The Well Known Resume Template as well as tips</s>](https://www.careercup.com/resume) Careercup website is gone, unfortunately.
 
 ## Interview Prep
 ### Concepts You Need to Know for Interviews
