@@ -1,7 +1,7 @@
 ---
 title: "General Software Engineer Interview Guide (How to get into FAANGs)"
 date: 2023-10-14
-modified_date: 2024-09-24
+modified_date: 2024-10-08
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fsoftware-engineer-interview-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -143,7 +143,7 @@ CPSC 426 Computer Animation
                * Heap
                * Graph
            * Intermediate
-               * Bits (Bit array, Binary)
+               * Bits (Bit array)
                * **Trie**
                * Monotonic Stack
                * Monotonic Queue
@@ -152,7 +152,6 @@ CPSC 426 Computer Animation
                * Red Black Tree
                * Segment Tree
                * B-Tree
-               * NP-complete problems
            * Make sure you know the time/space complexities (big o notation) of each operation that can be done on each data structure. For example, what the time complexity is for:
                * Array insertion
                * Putting an element in a heap
@@ -164,7 +163,7 @@ CPSC 426 Computer Animation
                * Greedy
                * Two Pointers
                * **Recursion**
-                   * Being able to convert it to an iterative version
+                   * Being able to convert it to an iterative version and vice versa
                * Sorting
                    * QuickSort
                    * MergeSort
@@ -173,9 +172,12 @@ CPSC 426 Computer Animation
                    * **TopologicalSort**
                * Searching
                    * Binary Search
+                   * BFS (Breadth-First Search)
+                   * DFS (Depth-First Search)
                * **Traversals** (Tree, Graph)
-                   * BFS, DFS
-                   * In order, pre order, post order
+                   * Inorder
+                   * Preorder
+                   * Postorder
            * Intermediate
                * Divide and Conquer
                * Dynamic Programming (DP)
@@ -188,6 +190,7 @@ CPSC 426 Computer Animation
                * A*
            * Misc
                * QuickSelect
+               * NP-complete problems (Just know what they are. You don't really need to study these problems)
        * Big O Notation (You are going to need to explain the time and space complexity for your solutions during the interviews. So understand these concepts really well.)
            * Time Complexity
            * Space Complexity
