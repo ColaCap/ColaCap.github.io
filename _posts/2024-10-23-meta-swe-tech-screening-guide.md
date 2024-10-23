@@ -6,7 +6,7 @@ modified_date: 2024-10-23
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fmeta-swe-tech-screening-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-## 면접 과정 개요
+## 📋 면접 과정 개요
 
 첫 기술 스크린(technical screening)은 엔지니어와의 45분 대화로, 지원자의 기술적 능력을 평가합니다. 스크린은 세 가지 파트로 나뉩니다:
 
@@ -16,7 +16,7 @@ modified_date: 2024-10-23
 
 - ❓ 질문 답변 시간 (5분): Meta에서 엔지니어로 일하는 것에 대해 궁금한 점을 물어보세요. 여러분이 관심 있는 문제나 도전하고 싶은 문제에 대해 생각해 보세요.
 
-## 면접에서 중요하게 보는 요소들
+## 🔍 면접에서 중요하게 보는 요소들
 
 면접관은 여러분의 기술과 경험이 팀에 어떤 도움을 줄 수 있을지를 생각합니다. 다음과 같은 특성과 능력에 중점을 두어 여러분이 제공할 가치를 설명하세요:
 
@@ -28,7 +28,7 @@ modified_date: 2024-10-23
 
 - **🔍 검증 능력**: 합리적인 수의 테스트 케이스를 고려하고 있나요? 코드에 버그가 있을 때 자신의 논리를 설명하고 이를 찾아낼 수 있나요?
 
-## 준비 방법
+## 📝 준비 방법
 
 면접관은 여러분이 면접에서 보여주는 것만으로 여러분의 기술과 능력을 평가할 수 있습니다. 따라서 여러분의 강점을 최대한 잘 보여줄 수 있도록 계획하고 준비하는 것이 중요합니다.
 
