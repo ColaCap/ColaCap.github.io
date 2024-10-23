@@ -140,5 +140,5 @@ modified_date: 2024-10-23
 
 ---
 
-본 문서는 메타의 공식 인터뷰 가이드에서 중요한 부분만 발췌 후 인공지능을 통해 번역 및 정리한 문서입니다. 인공지능은 실수할 수 있습니다. 자세한 내용은 [Meta Careers SWE Prep Guide](https://www.metacareers.com/swe-prep-onsite/)에서 확인하세요.
+본 문서는 [메타의 공식 인터뷰 가이드](https://github.com/ColaCap/ColaCap.github.io/blob/80d4268587a7b5322e4627c3c194be588c70e708/resources/Meta%20Interview%20Prep%20Guide.pdf)에서 중요한 부분만 발췌 후 인공지능을 통해 번역 및 정리한 문서입니다. 인공지능은 실수할 수 있습니다. 영어가 편하시거나 더 자세히 알고 싶으신 분들은 원문 보기를 추천드립니다. 원문은 앞의 링크나 [메타 커리어 웹사이트](https://www.metacareers.com/swe-prep-onsite/)에서 다운로드가 가능합니다.
 
