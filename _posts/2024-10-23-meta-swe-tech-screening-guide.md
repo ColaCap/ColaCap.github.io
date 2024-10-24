@@ -6,6 +6,8 @@ modified_date: 2024-10-23
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fmeta-swe-tech-screening-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
+_이 가이드는 메타에서 만들었을 뿐 아래의 전반적인 내용은 메타에만 적용되는 것이 아니라 다른 테크회사에도 거의 동일하게 적용됩니다._
+
 ## 📋 면접 과정 개요
 
 첫 기술 스크린(technical screening)은 엔지니어와의 45분 대화로, 지원자의 기술적 능력을 평가합니다. 스크린은 세 가지 파트로 나뉩니다:
