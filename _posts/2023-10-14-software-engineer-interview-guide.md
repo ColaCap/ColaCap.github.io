@@ -1,7 +1,7 @@
 ---
 title: "General Software Engineer Interview Guide (How to get into FAANGs)"
 date: 2023-10-14
-modified_date: 2024-11-08
+modified_date: 2024-11-13
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fsoftware-engineer-interview-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
