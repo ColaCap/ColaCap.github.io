@@ -303,22 +303,36 @@ CPSC 426 Computer Animation
        * You probably won’t get asked specifically about design patterns but you should be able to apply appropriate patterns when you are doing OOD interviews or at least be able to discuss them.
    * <a id="system-design"></a>System design (High Level system Design, HLD)
        * Important Concepts
-           * Load Balancing
-           * Caching
-           * Consistent Hashing
-           * Database
-               * Data Partitioning
-               * Data Redundancy / Replication
-               * SQL and NoSQL
+           * Scaling and Load Management
+               * Vertical / Horizontal Scaling
+               * Load Balancing
+               * Content Delivery Networks (CDNs)
+           * System Properties and Data Consistency
+               * Availability / Scalability / Durability
+               * Strong / Eventual Consistency
                * CAP Theorem
-           * Networking
-               * HTTP requests
-                   * REST vs SOAP vs GraphQL
-               * Websockets
-               * TCP/UDP
-           * Eventual Consistency
-           * Availability
-           * Durability
+           * Data Management
+               * Database
+                   * SQL / NoSQL
+                   * Data Partitioning / Redundancy / Replication
+                   * Indexing
+               * Consistent Hashing
+               * Bloom Filters
+               * Cache
+                   * Cache-aside / Read-through / Write-through / Write-behind / Write-back
+           * Networking and Communication Paradigms
+               * TCP / UDP
+               * REST / GraphQL / RPC
+               * WebSockets
+           * Architectural Patterns
+               * Microservices / Monolithic Service
+           * Asynchronous Processing
+               * Message Queues
+               * Event-driven
+               * Pub/Sub model
+           * Performance and Limits
+               * Rate Limiting
+               * Latency / Throughput
        * [Gaurav Sen System Design Playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
            * Watch every single video in this playlist
            * Do this in parallel while studying the Grokking the System Design Interview. Just watch one video each time you eat lunch/dinner.
