@@ -594,6 +594,7 @@ CPSC 426 Computer Animation
 
 ## Additional Materials
    * [Job Search Guideline for Senior Levels](https://www.jobsearch.dev/)
+   * [My approach to Big Tech interviews](https://tomdane.com/blog/interviews.html)
    * [Big O CheatSheet](https://www.bigocheatsheet.com/)
    * [Cooldown periods for applications](https://leetcode.com/discuss/career/771157/cool-down-period-for-all-faangs-number-of-tries-and-different-job-posts) 
 
