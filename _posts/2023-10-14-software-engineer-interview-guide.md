@@ -337,11 +337,11 @@ CPSC 426 Computer Animation
            * Watch every single video in this playlist
            * Do this in parallel while studying the Grokking the System Design Interview. Just watch one video each time you eat lunch/dinner.
            * Watch the fundamentals/concept videos first and then the “design something” videos.
-       * [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-           * Pay for 1 month ($69 CAD) and finish this course within 1 month unless you want to subscribe.
+       * [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview)
+           * *I originally took the course on educative.io but it seems like it's moved to designgurus.io?*
            * Read “Glossary of System Design Basics”
                * **You are going to pretty much ace almost all New Grad/Entry level position interviews at this point.**
-           * and then read “System Design Problems”
+           * and then the rest of the course
                * **After both Guraev San’s videos and this course, you are now ready to start applying for experienced level positions.**
        * [Microsoft Cloud Guide](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589781(v=pandp.10)) (suggested)
            * Asynchronous Messaging Primer
