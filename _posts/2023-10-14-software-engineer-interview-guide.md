@@ -141,6 +141,7 @@ CPSC 426 Computer Animation
            * Intermediate
                * Bits (Bit array)
                * **Trie**
+               * Union Find
                * Monotonic Stack
                * Monotonic Queue
            * Advanced (Just know that they exist. Not necessary to study ‘most of the time’. For those rare interviews that give you these, just accept the un-luck and move on.)
@@ -176,6 +177,7 @@ CPSC 426 Computer Animation
                    * Postorder
            * Intermediate
                * Divide and Conquer
+               * Graph Coloring
                * Dynamic Programming (DP)
                    * Memoization
                    * Tabulation
