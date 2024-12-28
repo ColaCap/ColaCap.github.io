@@ -15,9 +15,9 @@ modified_date: 2024-12-27
 
 - **What It is:** A JavaScript library for building user interfaces, especially for frontend development.
 - **Features:**
+  - Abstracts the low-level details of DOM away.
   - Simplifies UI creation with a declarative syntax (JSX) and efficient virtual DOM updates.
   - Component-based architecture supports reusability and maintainability.
-  - Provides flexibility for both small and large-scale projects.
 
 #### Alternatives to React
 
@@ -138,9 +138,9 @@ modified_date: 2024-12-27
 
 - **설명:** 프론트엔드 개발을 위해 설계된 사용자 인터페이스(UI) 구축용 자바스크립트 라이브러리입니다.
 - **특징:**
+  - 저수준 DOM 조작을 추상화하여 개발자가 복잡한 DOM 작업을 직접 다룰 필요 없이 효율적으로 UI를 구축할 수 있습니다.
   - 선언형 문법(JSX)과 효율적인 가상 DOM 업데이트로 UI 생성이 간소화됩니다.
   - 컴포넌트 기반 아키텍처를 통해 재사용성과 유지보수성이 향상됩니다.
-  - 소규모 프로젝트부터 대규모 프로젝트까지 유연하게 활용 가능합니다.
 
 #### React 대안
 
