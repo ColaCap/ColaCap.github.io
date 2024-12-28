@@ -1,5 +1,5 @@
 ---
-title: "Producer-Consumer VS Publisher-Subscriber (Pub-Sub)"
+title: "Producer-Consumer VS Publisher-Subscriber (Pub-Sub) / 생산자-소비자 패턴 VS 펍섭 패턴"
 date: 2024-12-28
 modified_date: 2024-12-28
 ---
