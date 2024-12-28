@@ -6,7 +6,6 @@ modified_date: 2024-12-27
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Ffullstack-javascript-development-with-react-and-seo-optimization.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-
 ## Frontend vs Backend
 
 - **Frontend:** Manages the user interface (UI) and interactivity, typically runs in the browser.
@@ -20,7 +19,7 @@ modified_date: 2024-12-27
   - Component-based architecture supports reusability and maintainability.
   - Provides flexibility for both small and large-scale projects.
 
-#### **Alternatives to React**
+#### Alternatives to React
 
 - Angular
 - Vue
@@ -126,6 +125,7 @@ modified_date: 2024-12-27
   - Netlify
   - AWS Amplify
 
+
 ---
 
 This article is created in collaboration with AI. AIs can make mistakes.
@@ -133,7 +133,7 @@ This article is created in collaboration with AI. AIs can make mistakes.
 ---
 
 
-# React를 활용한 SEO 최적화 풀스택 자바스크립트 개발 개념 정리
+
 
 ## 프론트엔드 vs 백엔드
 
