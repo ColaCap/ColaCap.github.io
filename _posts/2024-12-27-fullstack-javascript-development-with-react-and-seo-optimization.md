@@ -15,7 +15,7 @@ modified_date: 2024-12-27
 
 - **What It is:** A JavaScript library for building user interfaces, especially for frontend development.
 - **Features:**
-  - Abstracts the low-level details of DOM away.
+  - Abstracts the low-level details of the DOM, acting as a wrapper that simplifies complex DOM manipulation tasks for developers.
   - Simplifies UI creation with a declarative syntax (JSX) and efficient virtual DOM updates.
   - Component-based architecture supports reusability and maintainability.
 
@@ -72,9 +72,9 @@ modified_date: 2024-12-27
 
 - **What It is:** A React-based framework that simplifies full-stack development and optimizes SEO with pre-rendering methods like SSG, SSR, and ISR.
 - **Key Features:**
-  - Automates SSG for static sites.
+  - Automates SSG for static sites by handling the generation of static HTML files during the build process, removing the need for manual implementation.
   - Enables ISR for incrementally updating static pages after deployment.
-  - Simplifies SSR for delivering pre-rendered React components to improve performance and SEO.
+  - Simplifies SSR for delivering pre-rendered React components by integrating React rendering into the server-side workflow. Without Next.js, implementing SSR in Node.js would require custom server logic, significantly increasing complexity.
   - Combines CSR with pre-rendering for hybrid web apps.
 - **Dependencies:** Requires Node.js and React.
 
@@ -115,7 +115,7 @@ modified_date: 2024-12-27
 
 - **Features:**
 
-  - Automates ISR to dynamically regenerate static pages.
+  - Automates ISR to dynamically regenerate static pages. Without Vercel or a compatible platform, Next.js cannot use ISR effectively, as it relies on specialized infrastructure for on-demand static regeneration.
   - Distributes pre-rendered assets globally via CDNs for better performance and SEO.
   - Provides serverless functions for backend logic.
   - Seamless hosting for static and dynamic sites.
@@ -138,7 +138,7 @@ modified_date: 2024-12-27
 
 - **설명:** 프론트엔드 개발을 위해 설계된 사용자 인터페이스(UI) 구축용 자바스크립트 라이브러리입니다.
 - **특징:**
-  - 저수준 DOM 조작을 추상화하여 개발자가 복잡한 DOM 작업을 직접 다룰 필요 없이 효율적으로 UI를 구축할 수 있습니다.
+  - 저수준 DOM 조작을 추상화하여 개발자가 복잡한 DOM 작업을 직접 처리할 필요 없이 간단하게 UI를 구축할 수 있습니다.
   - 선언형 문법(JSX)과 효율적인 가상 DOM 업데이트로 UI 생성이 간소화됩니다.
   - 컴포넌트 기반 아키텍처를 통해 재사용성과 유지보수성이 향상됩니다.
 
@@ -196,9 +196,9 @@ modified_date: 2024-12-27
 
 - **설명:** SSG, SSR, ISR과 같은 사전 렌더링 방법을 활용하여 풀스택 개발을 단순화하고 SEO를 최적화하는 React 기반 프레임워크입니다.
 - **주요 특징:**
-  - 정적 사이트 생성을 자동화합니다.
+  - 정적 사이트 생성을 자동화하여 빌드 프로세스 중 정적 HTML 파일을 생성합니다.
   - 배포 후 정적 페이지를 증분적으로 업데이트하는 ISR을 지원합니다.
-  - React 컴포넌트를 사전 렌더링하여 성능과 SEO를 개선합니다.
+  - 서버 측에서 React 컴포넌트를 사전 렌더링하도록 통합하여 성능과 SEO를 개선합니다. Node.js로 SSR을 구현하려면 복잡한 커스텀 로직이 필요합니다.
   - 사전 렌더링과 CSR을 결합하여 하이브리드 웹 애플리케이션을 지원합니다.
 - **의존성:** Node.js 및 React가 필요합니다.
 
@@ -238,7 +238,7 @@ modified_date: 2024-12-27
 - **설명:** Next.js 애플리케이션 배포를 최적화하고 워크플로를 단순화하는 플랫폼입니다.
 
 - **특징:**
-  - ISR을 자동화하여 정적 페이지를 동적으로 재생성합니다.
+  - ISR을 자동화하여 정적 페이지를 동적으로 재생성합니다. Vercel 또는 호환 가능한 플랫폼 없이는 Next.js가 ISR을 효과적으로 사용할 수 없습니다.
   - CDN을 통해 사전 렌더링된 자산을 전 세계에 배포하여 성능과 SEO를 개선합니다.
   - 백엔드 로직을 위한 서버리스 함수를 제공합니다.
   - 정적 및 동적 사이트를 손쉽게 호스팅합니다.
