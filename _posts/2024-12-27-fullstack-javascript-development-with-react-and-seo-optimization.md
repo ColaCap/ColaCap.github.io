@@ -1,5 +1,5 @@
 ---
-title: "Full-Stack JavaScript Development with React and SEO Optimization"
+title: "Full-stack JavaScript Development with React and SEO Optimization"
 date: 2024-12-27
 modified_date: 2024-12-27
 ---
