@@ -26,7 +26,7 @@ I was initially confused about the distinctions between **message queues**, **Ka
 ---
 ---
 
-저는 **메시지 큐**, **Kafka**, **Producer-Consumer**, 그리고 **Pub-Sub** 시스템 간의 차이점이 혼란스러웠습니다. 이는 Kafka를 메시지 큐, Producer-Consumer 시스템, 혹은 Pub-Sub 시스템으로 설명하는 경우가 있기 때문입니다. 이러한 개념을 명확히 하기 위해 이 표를 작성하여 각 용어를 구분이 쉬워지게 하였습니다.
+저는 **메시지 큐**, **Kafka**, **Producer-Consumer**, 그리고 **Pub-Sub(펍섭)** 시스템 간의 차이점이 혼란스러웠습니다. 이는 Kafka를 메시지 큐, Producer-Consumer 시스템, 혹은 Pub-Sub 시스템으로 설명하는 경우가 있기 때문입니다. 이러한 개념을 명확히 하기 위해 이 표를 작성하여 각 용어를 구분이 쉬워지게 하였습니다.
 
 # 주요 차이점
 
