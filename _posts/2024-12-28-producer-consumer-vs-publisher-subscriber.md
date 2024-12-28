@@ -20,11 +20,12 @@ I was initially confused about the distinctions between **message queues**, **Ka
 # Summary
 
 - **Producer-Consumer** and **Pub-Sub** are distinct design patterns with clear and different purposes.
-- Systems like Kafka can implement both patterns flexibly, depending on the configuration. Each pattern aligns with specific use cases and behaviors.
+- Systems like Kafka can implement both patterns flexibly, depending on the configuration.
 
 ---
+---
 
-**메시지 큐**, **Kafka**, **Producer-Consumer**, 그리고 **Pub-Sub** 시스템 간의 차이점이 혼란스러웠습니다. 이는 Kafka를 메시지 큐, Producer-Consumer 시스템, 혹은 Pub-Sub 시스템으로 설명하는 경우가 있기 때문입니다. 이러한 개념을 명확히 하기 위해 이 표를 작성하여 각 용어를 구분이 쉬워지게 하였습니다.
+저는 **메시지 큐**, **Kafka**, **Producer-Consumer**, 그리고 **Pub-Sub** 시스템 간의 차이점이 혼란스러웠습니다. 이는 Kafka를 메시지 큐, Producer-Consumer 시스템, 혹은 Pub-Sub 시스템으로 설명하는 경우가 있기 때문입니다. 이러한 개념을 명확히 하기 위해 이 표를 작성하여 각 용어를 구분이 쉬워지게 하였습니다.
 
 # 주요 차이점
 
@@ -32,13 +33,13 @@ I was initially confused about the distinctions between **message queues**, **Ka
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **정의**                 | Writer(Producer)가 작업/메시지를 생성하고, 각 메시지가 정확히 하나의 Reader(Consumer)에 의해 처리되는 디자인 패턴.                            | Writer(Publisher)가 메시지를 Topic으로 브로드캐스트하고, 모든 Reader(Subscriber)가 독립적으로 동일한 메시지를 수신하는 디자인 패턴.                  |
 | **목적**                 | Reader 간 효율적인 작업 분배.                                                                                                                    | 다수의 Reader에게 이벤트 브로드캐스팅.                                                                                                             |
-| **Kafka 구현**           | 여러 Partition으로 나뉜 Topic이 동일한 Consumer Group의 Reader에게 할당됨. 그룹 내에서는 각 메시지가 하나의 Consumer에만 처리됨.                | 여러 Consumer Group이 동일한 메시지를 독립적으로 소비함. 각 그룹 내에서는 메시지가 하나의 Consumer에 의해 처리됨.                                   |
+| **Kafka 구현**           | 여러 Partition으로 나뉜 하나의 Topic이 동일한 Consumer Group의 Reader에게 할당됨. 그룹 내에서는 각 메시지가 하나의 Consumer에 의해서만 처리됨.                | 여러 Consumer Group이 동일한 메시지를 독립적으로 소비함. 각 그룹 내에서는 메시지가 하나의 Consumer에 의해 처리됨.                                   |
 | **기타 구현**            | ActiveMQ, RabbitMQ, In-memory Queue                                                                                                              | Redis Pub/Sub, Google Pub/Sub                                                                                                                     |
 
 # 요약
 
 - **Producer-Consumer**와 **Pub-Sub**는 명확하고 서로 다른 목적을 가진 디자인 패턴입니다.
-- Kafka와 같은 시스템은 구성에 따라 두 패턴을 유연하게 구현할 수 있으며, 각 패턴은 특정 사용 사례와 동작에 적합합니다.
+- Kafka와 같은 시스템은 구성에 따라 두 패턴을 유연하게 구현할 수 있습니다.
 
 ---
 
