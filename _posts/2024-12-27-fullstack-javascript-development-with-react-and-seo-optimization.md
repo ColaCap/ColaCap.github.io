@@ -128,12 +128,6 @@ modified_date: 2024-12-27
 
 ---
 
-This article is created in collaboration with AI. AIs can make mistakes.
-
----
-
-
-
 
 ## 프론트엔드 vs 백엔드
 
@@ -255,5 +249,7 @@ This article is created in collaboration with AI. AIs can make mistakes.
   - Cloudflare Pages
 
 ---
+
+This article is created in collaboration with AI. AIs can make mistakes.
 
 본 문서는 인공지능과의 대화를 통해 정리한 문서를 인공지능을 통해 번역한 문서입니다. 인공지능은 실수할 수 있습니다.
