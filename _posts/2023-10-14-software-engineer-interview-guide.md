@@ -1,7 +1,7 @@
 ---
 title: "General Software Engineer Interview Guide (How to get into FAANGs)"
 date: 2023-10-14
-modified_date: 2024-11-13
+modified_date: 2025-03-28
 ---
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fsoftware-engineer-interview-guide.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -16,11 +16,9 @@ modified_date: 2024-11-13
 	- [Data Structures and Algorithms](#data-structures-and-algorithms)
 	- [Computer Systems](#computer-systems)
 	- [Programming Interviews Exposed](#programming-interviews-exposed)
-	- [Cracking the Coding Interview](#cracking-the-coding-interview)
 	- [Leet Code](#leet-code)
 	- [Competitive Programming](#competitive-programming)
 	- [Object Oriented Design (OOD)](#object-oriented-design)
-	- [Design Patterns](#design-patterns)
 	- [System Design](#system-design)
 	- [Real Life Examples/Concepts/Products to Familiarize Yourself](#real-life-examples)
 - [Types of Interviews](#types-of-interviews)
@@ -124,26 +122,26 @@ CPSC 426 Computer Animation
 ## Interview Prep
 ### Concepts You Need to Know for Interviews
    * <a id="data-structures-and-algorithms"></a>Data Structure and Algorithms
-       * Important Data Structures (ones in **bold** are “exceptionally” important)
-           * Basic
-               * **String**
-               * **Array**
+       * Important Data Structures
+           * Core
+               * String
+               * Array
                    * 1d, 2d (matrix)
                * Linked List
-               * **Set**
-               * **HashMap** (Dictionary)
-               * **Stack**
-               * **Queue**
-               * **Tree**
+               * Set
+               * HashMap (Dictionary)
+               * Stack
+               * Queue
+               * Tree
                    * BST
                * Heap
                * Graph
-           * Intermediate
-               * Bits (Bit array)
-               * **Trie**
+               * Trie
+           * Supplementary
                * Union Find
                * Monotonic Stack
                * Monotonic Queue
+               * Bits (Bit array)
            * Advanced (Just know that they exist. Not necessary to study ‘most of the time’. For those rare interviews that give you these, just accept the un-luck and move on.)
                * AVL Tree
                * Red Black Tree
@@ -156,26 +154,26 @@ CPSC 426 Computer Animation
                * Etc 
                * Make sure you **UNDERSTAND** why it takes that much time/space rather than memorizing them. This is the whole point of learning data structures.
        * Important Algorithms
-           * Basic
+           * Core
                * Greedy
                * Two Pointers
-               * **Recursion**
+               * Recursion
                    * Being able to convert it to an iterative version and vice versa
                * Sorting
                    * QuickSort
                    * MergeSort
                    * HeapSort
                    * CountingSort
-                   * **TopologicalSort**
+                   * TopologicalSort
                * Searching
                    * Binary Search
                    * BFS (Breadth-First Search)
                    * DFS (Depth-First Search)
-               * **Traversals** (Tree, Graph)
+               * Traversals (Tree, Graph)
                    * Inorder
                    * Preorder
                    * Postorder
-           * Intermediate
+           * Supplementary
                * Divide and Conquer
                * Graph Coloring
                * Dynamic Programming (DP)
@@ -183,11 +181,11 @@ CPSC 426 Computer Animation
                    * Tabulation
                    * Sliding Window
                * Bit Manipulation
+               * QuickSelect
            * Advanced
                * Dijkstra
                * A*
            * Misc
-               * QuickSelect
                * NP-complete problems (Just know what they are. You don't really need to study these problems)
        * Big O Notation (You are going to need to explain the time and space complexity for your solutions during the interviews. So understand these concepts really well.)
            * Time Complexity
@@ -201,8 +199,8 @@ CPSC 426 Computer Animation
        * Learning the whole course is not required for interview prep but you should still know these concepts
            * Stack vs Heap memory
                * Stack overflow
-           * Concurrency
-               * Threads
+           * Concurrency vs Parallelism
+               * Threads, Processes
                * Locks, Semaphores, Mutex, etc
            * Locality of reference, spatial locality
 
@@ -225,73 +223,54 @@ CPSC 426 Computer Animation
                * Ch 16. Knowledge-based questions
                * Ch 17. Non Technical Questions
            * Appendix. Resumes
-           * <a id="pie-design-patterns"></a>**(Come back after doing LeetCode)** 11. Design Patterns
-   * <a id="cracking-the-coding-interview"></a>[Cracking the Coding Interview](https://www.google.com/search?q=cracking+the+coding+interview) (CTCI)
-       * Chapters to read (Based on the 4th Edition)
-           * Read all the introductory stuff before the section “Interview Questions”
-           * **Solve every single question** in these chapters
-               * Ch 1. Array and Strings
-               * Ch 2. Linked Lists
-               * Ch 3. Stacks and Queues
-               * Ch 4. Trees and Graphs
-               * Ch 5. Bit Manipulation
-               * Ch 8. Recursion
-               * Ch 9. Sorting and Searching
-           * Also, do the chapters on “C++” (Ch. 13)  and/or “Java” (Ch. 14) (depending on the language you used)
-           * Read and understand Ch 18. Threads and Locks but solving the problems is optional.
-           * <a id="ctci-object-oriented-design"></a>**(Come back after doing LeetCode)** Ch 7. Object Oriented Design
-           * <a id="ctci-system-design"></a>**(Ignore for internships. Comeback to this when prepping for New Grad/Entry level positions)** Ch 12. System Design
+           * <a id="pie-design-patterns"></a>**(Read when studying for OOD)** 11. Design Patterns
    * <a id="leet-code"></a>[LeetCode](https://leetcode.com/)
-       * [Grind 75](https://www.techinterviewhandbook.org/grind75?grouping=weeks&hours=16&weeks=10) (Newer version of [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions))
-           * Recommended workload: 2 hours a weekday, 3 hours a weekend day => 16 hours a week. This will yield a total of 10 weeks to finish the 169 questions in Grind 75.
-           * **Remember, you are probably taking courses at this point. Use your time wisely.**
-           * Choose the language you are the most comfortable with.
-               * If you don’t have a preference, yet, Python is suggested as it will make interview-question-type questions easier to code with.
-           * **After you’ve done all the Easy questions, you are now prepared to “start” applying for internships.**
-           * The more Medium+ questions you solve, the higher the chance of doing well in your interviews.
-           * After finishing the 169 questions in Grind 75, you are probably good enough to do well on ‘many’ LeetCode style interviews. The author of Grind 75 mentions that the returns of solving more problems diminish after 169 questions. I do agree with the diminishing returns in terms of value / effort perspective. However, even though the return does get diminished, a return is a return. The more returns you have, the higher the chance of you doing the interviews well. So I suggest you, at least, do more LeetCode until you finish the [Company tagged questions](#company-tagged-questions) section below. Company tagged questions are usually of high quality and you can also increase the chance of seeing the problems you have practiced during the real interviews. (This should not be the purpose of solving LeetCode problems. The purpose should be to learn/practice and get better at solving problems. However, it’s a side effect that will greatly increase your chance of passing the interviews.)
+       * Choose the language you are the most comfortable with.
+           * If you don’t have a preference, yet, Python is suggested as it will make interview-question-type questions easier to code with.
+           * If you are stuck, try to spend 10 - 20 minutes yourself thinking really hard. If you are still stuck, see if the problem is on this channel [NeetCode YouTube](https://www.youtube.com/c/NeetCode/videos) or [BackToBackSWE](https://www.youtube.com/c/BackToBackSWE/videos). Watch the video, process it in your head such that you really understand the solution, and go solve the problem again on your own. NeetCode is the masterpiece of explaining Leetcode problems. BackToBackSWE is a backup in case NeetCode didn't cover the problem. If neither covered it, cry.
            * Make use of the “Discussion” section after solving a problem to see how others have solved the problem. If there are better solutions, learn from them and try implementing them yourself.
-               * Also, you can use this section to get some help when you are stuck on a problem. However, spend at least half an hour on your own before referring to the discussion section for solutions.
-       * Go back and do the “Come back after doing leet code” steps above. Then come back and proceed from here.
-	       * [step 1](#pie-design-patterns)
-	       * [step 2](#ctci-object-oriented-design)
-	       * [step 3 (unless for internships)](#ctci-system-design)
-           * **Finish these before your final round (on-site) internship interviews.**
-           * **You are now prepared to start applying for new grad/entry level positions.**
+           * Also, you can use this section to get help when you are stuck on a problem and NeetCode doesn't have a video on it.
+       * Study each topic of [Data Structures and Algorithms](#data-structures-and-algorithms)
+           * On Leetcode website, you can choose a specific topic tag such as Array, Recursion, Graph, and etc.
+           * Pick one. It will show a list of problems that contain the topic tag.
+           * At the top of the page, there is an option to display the topic tags for each question. Enable it.
+           * Now starting from Easy ones and going up to Medium, pick however many questions that make you feel confident on that topic. Pick the questions with minimal # of topic tags.
+               * For example, a question might have tags "String, Backtracking, Dynamic Programming". Another might just have "String".
+               * If you are studying for "String", pick the latter one.
+               * This way, the problem is more pure for the sake of studying a specific topic without confusing you.
+           * Once you are pretty confident solving medium level questions on that topic, move to the next topic.
+       * [Blind 75](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
+           * See if you can solve the questions in this list in a given time limit similar to interviews.
+               * Easy: 5 min
+               * Medium: 20 min
+               * Hard: 35 min (optional)
+               * These times are what you should aim for.
+               * Most of the time, Medium questions are the ones you should be focusing on. So don't put too much stress in solving Hard questions in 35 mins. Solving Hard problems in 35 minutes is something that will take lots of time (ie. several hundreds # of problems)
+           * For any problem that you couldn't solve yourself or took a lot longer than the goal time, find out what topic that question is. Go back to the previous step and study that topic more.
+           * Blind 75 is a very concise and comprehensive list of problems which is a great tool to find out which area you are not good at.
+           * If you can solve all the problems within the time limit, you are pretty ready for the Leetcode style coding interviews.
        * <a id="company-tagged-questions"></a>Company tagged questions
+           * Leetcode premium users can access the list of company tagged questions.
            * These are the questions that were actually asked by these companies in real interviews. Questions in real interviews are, many times, repeated especially for the 1st phone interviews.
            * Either pay for Leetcode subscriptions
-           * Or use some other sources like [this](https://github.com/xizhengszhang/Leetcode_company_frequency)
-           * Do as many from FAANGs and from the specific companies you are applying for. A lot of the questions used by FAANGs are of high quality _(I’m basing off of the link I linked above and not from the actual leetcode’s company tagged questions as I have not paid for the leetcode subscription)_. You’ve probably already solved many of the ones while doing the Grind 75 since many questions overlap. Do the ones that weren’t covered by Grind 75.
-       * Now, do 1 leetcode problem a day.
-           * Choose any good question you want
-               * Focus on the topics you are weak on.
-               * Can repeat good questions you already solved.
-               * Good questions usually have a high # of “likes” with a low # of “dislikes”.
-               * Medium level ones are usually the best choice for reward/time ratio.
-               * The questions from number 1~700 are usually of higher quality than the later ones.
+           * Or use some other sources like [this](https://leetcodewizard.io/problem-database)
+           * Do as many from FAANGs and especially from the specific companies you are applying for. A lot of the questions used by FAANGs are of high quality. You’ve probably already solved many of the ones in the previous steps. Do the ones that weren't solved already.
+       * Now, do 1 leetcode problem a day if you don't want to regret not doing this the next time you are applying to companies.
            * Doing 1 a day will make your interview life so much easier down the road. Also will give you higher chances for higher TC positions.
            * Practice and practice until you are comfortable with finishing medium questions in 25 minutes and hard questions in 45 minutes, on average. Knowing and understanding how to solve is important but being able to implement it fast is also pretty crucial in a timed interview environment (not so much in real life though. This is one of the many aspects why the current interview process is so controversial).
            * Someone said “_One leetcode a day keeps unemployment away_”
-       * Supportive Material
-           * [NeetCode YouTube](https://www.youtube.com/c/NeetCode/videos)
-               * If you are having a problem understanding a LeetCode problem or want to understand the solution more deeply, search for the problem in his channel and watch it. His videos are the most easily understood.
-               * Many times, I find watching his videos is better in making me understand why the solution is the solution than reading the posts in the discussion section.
-               * There are some problems that he has not covered. If you are having a problem with a problem that is not covered on his channel, that’s unfortunate. 
-           * [BackToBackSWE](https://www.youtube.com/c/BackToBackSWE/videos) 
-               * Try this channel if you weren’t able to find the problem on NeetCode. This channel is also very good at explaining.
    * <a id="competitive-programming"></a>[Optional] Competitive Programming (ACM-ICPC)
        * If you like doing this kind of Data Structures and Algorithms stuff, try competitive programming. Find the team at your school and join them if possible.
            * [UBC ACM](https://www.cs.ubc.ca/students/undergrad/life/acm) 
        * [Google CodeJam](https://codingcompetitionsonair.withgoogle.com/)
        * [Code Forces](https://codeforces.com/)
        * [Facebook (Meta) Hacker Cup](https://www.facebook.com/codingcompetitions/hacker-cup/)
-       * If you become good at competitive programming, DSA interview questions will become so easy for you.
+       * If you become good at competitive programming, Leetcode style interview questions will become so easy for you. (Like Hard Leetcode becomes Easy for you. Crazy)
        * Also, if you get placed in some top ranks in those competitions, and put it on your resume, it will make your resume outstanding. (not sure about experienced positions but probably useful at least up to intermediate positions)
            * Even without being placed in top ranks in competitions, just becoming an “official” member of your school’s ACM team will still boost your resume.
        * You can also earn money if you are placed as one of the top rankers! (probably impossible for most of us though)
    * <a id="object-oriented-design"></a>Object Oriented Design (OOD). Also known as Low Level system Design (LLD)
-       * [The chapter on Object Oriented Design in CTCI](#ctci-object-oriented-design)
+       * [The chapter on Design Patterns in PIE](#pie-design-patterns)
        * [Leetcode OOD discussion](https://leetcode.com/discuss/interview-question/object-oriented-design)
            * Look at what kind of OOD questions there are.
        * Watch some OOD/LLD YouTube videos.
@@ -300,9 +279,6 @@ CPSC 426 Computer Animation
            * Design a Movie Ticketing System
            * Design Tic Tac Toe
        * **You now have a pretty good chance to do well on many New Grad / Entry level interviews.**
-   * <a id="design-patterns"></a>Design Patterns
-       * [The chapter on Design Patterns in PIE.](#pie-design-patterns)
-       * You probably won’t get asked specifically about design patterns but you should be able to apply appropriate patterns when you are doing OOD interviews or at least be able to discuss them.
    * <a id="system-design"></a>System design (High Level system Design, HLD)
        * Important Concepts
            * Scaling and Load Management
@@ -335,35 +311,30 @@ CPSC 426 Computer Animation
            * Performance and Limits
                * Rate Limiting
                * Latency / Throughput
+       * [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
+           * This video covers a breadth of topics of System Design. Start with this video so you have an idea of what you need to learn in depth.
        * [Gaurav Sen System Design Playlist](https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX)
-           * Watch every single video in this playlist
-           * Do this in parallel while studying the Grokking the System Design Interview. Just watch one video each time you eat lunch/dinner.
+           * Watch videos in this list in parallel while studying the Grokking the System Design Interview course mentioned below. Just watch one video each time you eat lunch/dinner.
            * Watch the fundamentals/concept videos first and then the “design something” videos.
+           * These videos cover the high level and do not go in depth as much. So should be pretty easy to follow along for beginners.
        * [Grokking the System Design Interview](https://www.designgurus.io/course/grokking-the-system-design-interview)
            * *I originally took the course on educative.io but it seems like it's moved to designgurus.io?*
            * Read “Glossary of System Design Basics”
                * **You are going to pretty much ace almost all New Grad/Entry level position interviews at this point.**
            * and then the rest of the course
                * **After both Guraev San’s videos and this course, you are now ready to start applying for experienced level positions.**
-       * [Microsoft Cloud Guide](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589781(v=pandp.10)) (suggested)
-           * Asynchronous Messaging Primer
-           * Data Consistency Primer
-           * Data Partitioning Guidance
-           * Data Replication and Synchronization Guidance
-       * [Microsoft Cloud Design Patterns](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn600223(v=pandp.10)) (suggested)
-           * Cache-Aside Pattern
-           * Circuit Breaker Pattern
-           * Compensating Transaction Pattern
-           * Compete Consumers Pattern
-           * Command and Query Responsibility Segregation (CQRS) Pattern
-           * Event Sourcing Pattern
-           * Index Table Pattern
-           * Priority Queue Pattern
-           * Queue-Based Load Leveling Pattern
-           * Retry Pattern
-           * Sharding Pattern
-       * Practice
-           * Go through all the design problems you saw on Gaurav's videos and the Grokking course and try coming up with your own design without looking. Then compare.
+           * You could read [ByteByteGo & System Design Interview Book by Alex Xu](https://bytebytego.com/) instead of taking this course. I recommend the Grokking course over this book though. They cover similar stuff but the book seems to have slightly less depth. Might be better as an introductory book for students/juniors.
+       * [HelloInterview YouTube](https://www.youtube.com/@hello_interview/videos)
+           * Watch every single video on this channel regarding system design.
+           * These videos cover not only the high level but also in depth.
+           * HelloInterview is the king of system design interview prep material.
+       * [HelloInterview System Design Problem Practice](https://www.hellointerview.com/learn/system-design/in-a-hurry/how-to-prepare)
+           * Pay for subscription and solve all the problems on HelloInterview. Try to forget what you watched in the video above so you solve with your own brain.
+           * You get feedback from an AI. It has some limitations but actually solving system design problems is a necessity before doing interviews.
+           * If you read/watch a lot but never actually practice solving, you will not do well in the interviews.
+           * Also, go read anything you find intersting on this platform. Tons of great materials.
+       * Practice More
+           * HelloInterview only have a handful of practice problems. Go through all the design problems you can find online from sources such as [SystemDesignIO](https://systemdesign.io/)
            * Look at any other products you use and think and come up with a system design for the product.
            * Make sure to think/understand what will happen and how to resolve when any/every component of the system fails. 
                * If the primary db/cache fails, what happens and how to resolve it?
@@ -371,26 +342,20 @@ CPSC 426 Computer Animation
                * If the queue fails,
                * etc
            * **Now you should be pretty ready for experienced level tech interviews.**
-       * Tech Blogs (Additional Material)
+       * Additional Materials
+           * [Microsoft Cloud Guide](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn589781(v=pandp.10))
+               * Asynchronous Messaging Primer
+               * Data Consistency Primer
+               * Data Partitioning Guidance
+               * Data Replication and Synchronization Guidance
+           * [System Design Interview YouTube](https://www.youtube.com/c/SystemDesignInterview)
+               * This is also one of the most praised channels for having in-depth videos of system designs. However, there are only 6 videos. It might be a bit hard to understand if you are a non-native speaker like me.
+           * Tech Blogs
            * Read anything interesting from tech blogs of other companies. Tech companies usually have tech blogs where they describe the problems they faced and how they solved it. Will let you learn a ton from practical problems rather than just from academic problems.
            * Some example blogs
                * [Dropbox](https://dropbox.tech/)
                * [Instagram](https://instagram-engineering.com/)
                * [Uber](https://eng.uber.com/)
-           * **Now you should be able to do pretty well on many experienced level tech interviews**
-       * Additional Materials (I personally watched the top two bullet points but did not watch/read the other 3 bullet points, yet)
-           * [System Design Interview YouTube](https://www.youtube.com/c/SystemDesignInterview)
-               * This is also one of the most praised channels for having in-depth videos of system designs. However, there are only 6 videos. It might be a bit hard to understand if you are a non-native speaker like me.
-           * [CS75 (Summer 2012) Lecture 9 Scalability Harvard Web Development David Malan](https://www.youtube.com/watch?v=-W9F__D3oY4)
-               * The professor in this video really explains well. It covers concepts like scaling, single point of failure, DNS, load balancing, sessions, RAID, cache, DB replication/partitioning, security, and etc. I highly recommended it.
-           * InfoQ videos
-               * I heard these videos are really helpful. Some examples are:
-               * [https://www.infoq.com/presentations/Pinterest/](https://www.infoq.com/presentations/Pinterest/)
-               * [https://www.infoq.com/presentations/Twitter-Timeline-Scalability/](https://www.infoq.com/presentations/Twitter-Timeline-Scalability/) 
-               * [https://www.infoq.com/presentations/dropbox-infrastructure/](https://www.infoq.com/presentations/dropbox-infrastructure/) 
-               * Etc
-           * [ByteByteGo & System Design Interview Book by Alex Xu](https://bytebytego.com/) 
-           * [System design Udemy Course by a Facebook TechLead](https://www.udemy.com/course/system-design-a-comprehensive-guide/) 
   * <a id="real-life-examples"></a>Real life examples/concepts/products to familiarize yourself
     * Coding
       * Web Crawler
@@ -559,6 +524,7 @@ CPSC 426 Computer Animation
        * The recruiter you are talking to is probably trying to close the deal as soon as possible by trying their best to give you what you want within reasonable limits. The real people that decide the offer numbers are probably the hiring committee. So do not feel bad trying to negotiate with the recruiter. The recruiter does not care too much about whether you are getting more money or not. The money is not coming out of their pocket.
        * Mention that you’d need some time to think it over, discuss it with your family or significant other, etc. This will buy you some time easily if you need some time.
        * Bottom Line: **NEVER EVER LET GO OF YOUR NEGOTIATING POWER UNTIL YOU SIGN while staying honest to build a positive relationship.**
+   * Some public companies (ie. Meta) do not care about offers from private companies as their RSUs or Stock options are paper money. Also, they care less about the yearly TC of competing offers but more about the total TC you will get over the 4 years (4 being the # of years for the RSUs to fully vest). So if you have an offer from another company which gives you higher yearly TC but vests over only 1-2 years, it's a weak competing offer. Try to get competing offers from companies that give you 4 year vesting.
 
 ## Leveling Guide
    Higher level means higher TC!
@@ -606,7 +572,10 @@ CPSC 426 Computer Animation
 ## Case Study
    * [An inspiring story of the author who wrote "Ten Rules for Negotiating a Job Offer" on how he cracked the top tier tech interviews without a CS degree](https://haseebq.com/farewell-app-academy-hello-airbnb-part-i/) 
    * [Story of an engineer getting 10 offers in 100 days](https://dev.to/stopachka/10-offers-100-days-lessons-behind-the-scenes-of-an-l6-jobsearch-535j) 
-   * [How to use your personal projects to get job offers](https://www.reddit.com/r/cscareerquestions/comments/vxd8zs/i_posted_my_project_on_reddit_and_received_9_job/) 
+   * [How to use your personal projects to get job offers](https://www.reddit.com/r/cscareerquestions/comments/vxd8zs/i_posted_my_project_on_reddit_and_received_9_job/)
+   * [Cracking TikTok after 8 months of layoff](https://www.reddit.com/r/leetcode/comments/1gwxcxk/after_being_laid_off_for_8_months_i_finally/)
+   * [Cracking Meta, LinkedIn, Google as a senior](https://www.reddit.com/r/ExperiencedDevs/comments/1gz9ksj/my_senior_engineer_interview_experiences/)
+   * [Cracking OpenAI Internship](https://www.reddit.com/r/csMajors/comments/1h8jdwf/we_landed_openai_boys_and_girls/)
 
 ## Additional Materials
    * [Job Search Guideline for Senior Levels](https://www.jobsearch.dev/)
