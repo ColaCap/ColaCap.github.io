@@ -271,8 +271,8 @@ CPSC 426 Computer Animation
        * You can also earn money if you are placed as one of the top rankers! (probably impossible for most of us though)
    * <a id="object-oriented-design"></a>Object Oriented Design (OOD). Also known as Low Level system Design (LLD)
        * [The chapter on Design Patterns in PIE](#pie-design-patterns)
-       * [Leetcode OOD discussion](https://leetcode.com/discuss/interview-question/object-oriented-design)
-           * Look at what kind of OOD questions there are.
+       * [Leetcode OOD discussion](https://leetcode.com/discuss/)
+           * Search for OOD and look at what kind of OOD questions there are.
        * Watch some OOD/LLD YouTube videos.
        * Example Questions
            * Design a Shopping Cart
@@ -323,7 +323,7 @@ CPSC 426 Computer Animation
                * **You are going to pretty much ace almost all New Grad/Entry level position interviews at this point.**
            * and then the rest of the course
                * **After both Guraev San’s videos and this course, you are now ready to start applying for experienced level positions.**
-           * You could read [ByteByteGo & System Design Interview Book by Alex Xu](https://bytebytego.com/) instead of taking this course. I recommend the Grokking course over this book though. They cover similar stuff but the book seems to have slightly less depth. Might be better as an introductory book for students/juniors.
+           * You could read System Design Interview Book by Alex Xu instead of taking this course. I recommend the Grokking course over this book though. They cover similar stuff but the book seems to have slightly less depth. Might be better as an introductory book for students/juniors.
        * [HelloInterview YouTube](https://www.youtube.com/@hello_interview/videos)
            * Watch every single video on this channel regarding system design.
            * These videos cover not only the high level but also in depth.
