@@ -4,8 +4,6 @@ date: 2024-10-14
 modified_date: 2024-10-14
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fwhat-is-llm.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 이 가이드는 LLM, RAG, GPT, LLaMA, Claude, LangChain, KoboldAI, TavernAI, SillyTavern, ChatRTX 같은 알 수 없는 용어들이 인터넷에 남발하는데, 각각 무엇이고 무슨 차이가 있고 왜 존재하는지 이해하기 어려워서 지피티에게 이것 저것 물어보고 대화한 것들을 지피티 칸바스를 통해서 다 정리해달라고 한거야.
 인공지능이 알려준 정보라 간략한 팩트체크를 하긴 했지만, 놓친 부분이 있을 수 있어.
 
