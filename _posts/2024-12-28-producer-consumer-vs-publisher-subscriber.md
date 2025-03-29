@@ -4,8 +4,6 @@ date: 2024-12-28
 modified_date: 2024-12-28
 ---
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcolacap.github.io%2Fproducer-consumer-vs-publisher-subscriber.html&count_bg=%2340D135&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
 I was initially confused about the distinctions between **message queues**, **Kafka**, **producer-consumer**, and **pub-sub** because different sources describe Kafka as a message queue, a producer-consumer system, or a pub-sub system. To clarify these concepts, I created this table to distinguish these terms.
 
 # Key Differences
